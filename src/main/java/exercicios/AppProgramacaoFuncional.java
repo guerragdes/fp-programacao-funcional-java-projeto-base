@@ -23,6 +23,7 @@ public class AppProgramacaoFuncional {
 
     public AppProgramacaoFuncional() {
 
+
     }
 
     public static void main(String[] args) {
