@@ -42,7 +42,12 @@ public class Aula06 extends Aula {
      */
     public Aula06() {
         //TODO: Insira chamdas das funções existentes aqui, para você conferir como estão funcionando
-
+        System.out.println(getEstudantesMulheresAprovadas());
+        System.out.println(getEstudantesMulheresAprovadasOrdenadasPorCursoAndNota());
+        System.out.println(getEstudantesMulheresAprovadasOrdenadasPorCursoDecrescenteAndNotaCrescente());
+        System.out.println(getEstudantesMulheresAprovadasOrdenadasPorCursoCrescenteAndNotaDecrescente());
+        System.out.println(getEstudantesMulheresAprovadasOrdenadasTotalmenteDecrescente());
+        System.out.println(getEstudantesMulheresAprovadasNaoOrdenadasModificavel());
     }
 
     /**
@@ -50,6 +55,7 @@ public class Aula06 extends Aula {
      */
     public static void main(String[] args) {
         new Aula06();
+
     }
 
     /**
